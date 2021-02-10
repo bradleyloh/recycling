@@ -1,5 +1,5 @@
-name: design1
-description: A new Flutter project.
+name: trial1
+description: A new Flutter application.
 
 # The following line prevents the package from being accidentally published to
 # pub.dev using `pub publish`. This is preferred for private packages.
@@ -23,11 +23,21 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  camera:
+  convex_bottom_bar:
+  provider:
+  path_provider:
+  path:
+  flutter_sparkline:
+  shared_preferences:
+  email_validator:
+  fluttertoast:
+  flutter_carousel_slider:
 
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
-  cupertino_icons: ^1.0.1
+  cupertino_icons: ^1.0.2
 
 dev_dependencies:
   flutter_test:
@@ -35,16 +45,19 @@ dev_dependencies:
   integration_test:
     sdk: flutter
 
-# For information on the generic Dart part of this file, see the
-# following page: https://dart.dev/tools/pub/pubspec
 
-# The following section is specific to Flutter.
-flutter:
-
-  # The following line ensures that the Material Icons font is
-  # included with your application, so that you can use the icons in
+  ## For information on the generic Dart part of this file, see the
+  ## following page: https://dart.dev/tools/pub/pubspec
+  #
+  ## The following section is specific to Flutter.
+  #flutter:
+  #  # The following line ensures that the Material Icons font is
+  #  # included with your application, so that you can use the icons in
   # the material Icons class.
   uses-material-design: true
+  assets:
+    - assets/images/
+
 
   # To add assets to your application, add an assets section, like this:
   # assets:
